@@ -44,7 +44,7 @@ done
 
 print 5 times "INDIA" if value is greater than or equal to 10
 
-
+``` 
 #!/bin/bash
 if [ $1 -lt 10 ]
 then
@@ -62,6 +62,7 @@ echo INDIA
 let j++
 done
 fi
+```
 
 Make a script and pass 5 command line arguments
 
