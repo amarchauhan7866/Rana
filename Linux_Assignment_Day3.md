@@ -1,15 +1,15 @@
 # Awk Command:-  
-Awk is a scripting language used for manipulating data and generating reports.
+## Awk is a scripting language used for manipulating data and generating reports.
 The awk command programming language requires no compiling, and allows the user to use variables, numeric functions, string functions, and logical operators.
 
-WE DO WITH AWK
- 1.Scans a file line by line
-  2. Splits each input line into fields
-  3. Compares input line/fields to pattern
-  4. Performs action(s) on matched lines
+# WE DO WITH AWK
+ 1.Scans a file line by line  
+  2. Splits each input line into fields  
+  3. Compares input line/fields to pattern  
+  4. Performs action(s) on matched lines  
 
 
-Sed Command:- 
+# Sed Command:- 
 
 sed is a Stream Editor used for modifying the files in  linux.
  Whenever you want to make changes to the file automatically, sed comes in handy to do this.
