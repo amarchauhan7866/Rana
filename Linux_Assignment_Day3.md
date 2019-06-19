@@ -64,6 +64,7 @@ done
 fi
 ```
 
+```
 Make a script and pass 5 command line arguments
 
 #!/bin/bash
@@ -77,3 +78,4 @@ echo "india"
 fi
 sum=`expr $1 + $2 + $3 + $4 + $5`
 echo Sum of all argument is $sum
+````
