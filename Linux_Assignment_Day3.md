@@ -79,4 +79,5 @@ fi
 sum=`expr $1 + $2 + $3 + $4 + $5`
 echo Sum of all argument is $sum
 ````
-!https://github.com/amarchauhan7866/Jenkin_Media_Day3/blob/master/Jenkins_2.png  
+[!https://github.com/amarchauhan7866/Jenkin_Media_Day3/blob/master/Jenkins_2.png]
+
