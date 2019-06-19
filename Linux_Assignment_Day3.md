@@ -80,7 +80,7 @@ sum=`expr $1 + $2 + $3 + $4 + $5`
 echo Sum of all argument is $sum
 
 ````
-![masterfile](https://github.com/amarchauhan7866/Jenkin_Media_Day3/blob/master/Jenkins_2.png)
+![vsftpd](https://github.com/amarchauhan7866/Amar_Git_Assignment/blob/Amar/Git_Media_Day1/vsftpd.jpg)
 
 
 
