@@ -16,8 +16,20 @@ pipeline {
                   }
           }
           
+		  stage ('Code Quility')
+              { 
+                  steps
+                  {
+                   sh 'cd /var/lib/jenkins/workspace/Job1/spring3hibernate; mvn checkstyle:checkstyle'
+                  }
+          }
+		  stage ('Code Coverange')
+              { 
+                  steps
+                  {
+                   sh 'cd /var/lib/jenkins/workspace/Job1/spring3hibernate; mvn cobertura:cobertura'
+                  }
+          }
         }
 }
-
-
 
