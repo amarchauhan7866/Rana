@@ -37,6 +37,14 @@ pipeline {
                    sh 'cd /var/lib/jenkins/workspace/Job1/spring3hibernate; mvn cobertura:cobertura'
                   }
           }
+	stage ('Code Publish')
+              {
+                  steps
+                  {
+                   sh 'cd publishCoverage adapters: [coberturaAdapter('target/site')], sourceFileResolver: sourceFiles('NEVER_STORE')
+                  }
+          }
+
         }
 }
 
