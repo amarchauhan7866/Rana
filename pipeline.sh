@@ -15,7 +15,13 @@ pipeline {
                    sh 'cd /var/lib/jenkins/workspace/Job1/spring3hibernate; mvn compile'
                   }
           }
-          
+             stage ('wait')
+                 {
+                   steps{
+                         input 'wait'
+                     }
+                    }
+		
 		  stage ('Code Quility')
               { 
                   steps
