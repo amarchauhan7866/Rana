@@ -15,7 +15,7 @@ pipeline {
                    sh 'cd /var/lib/jenkins/workspace/Job1/spring3hibernate; mvn compile'
                   }
           }
-             stage ('admin')
+             stage ('submitter')
                  {
                    steps{
                          
